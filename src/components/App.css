@@ -1,0 +1,67 @@
+/* app.css */
+
+/* HomePageContainer styles */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f9a2a3, #ebebeb);
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Subtitle styles */
+  .subtitle {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  /* Text styles */
+  .text {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: linear-gradient(to bottom right, #f9a2a3, #ebebeb); /* Set the same background as HomePageContainer */
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* Set the same text color as HomePageContainer */
+    font-weight: bold;
+  }
+  
